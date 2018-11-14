@@ -3,6 +3,10 @@
 #11/13/2018
 
 library(shiny)
+library(rsconnect)
+library(ggplot2)
+library(leaflet)
+
 
 # Define UI for random distribution app
 shinyUI <- fluidPage(

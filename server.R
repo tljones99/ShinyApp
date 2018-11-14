@@ -1,3 +1,9 @@
+# load libraries
+library(shiny)
+library(rsconnect)
+library(ggplot2)
+library(leaflet)
+
 # Define server logic for random distribution app
 shinyServer <- function(input, output) {
     
